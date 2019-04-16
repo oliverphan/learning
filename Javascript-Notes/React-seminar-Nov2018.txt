@@ -1,0 +1,11 @@
+Everything extends "Component"
+Component is the building block of React (then you pass in props "properties": either functions, elements...), and
+Everything is basically a component
+
+States are properties of the components: And can represent anything in that's declared within this.state ={ } (<- Delcared in constructor!)
+Basically all the objects that you want to dynamically change on the web, you want to put in the state
+
+Rendering: React re-renders the virtual DOM (only the differences - super efficient!) on state changes
+
+==: Structural Equality
+===: Identity Equality
