@@ -1,0 +1,25 @@
+p {
+	text-align: center;
+	color: purple;
+}
+
+#id1 {
+	text-align: left;
+	font-size: 120%;
+}
+
+.class1 {
+	color: MediumSeaGreen;
+	padding: 10px;
+}
+
+p.paragraphClass {
+	color: Violet;
+}
+
+h1, h2, h3 {
+	background-color: blue;
+}
+
+/*This is a CSS Comment
+*/

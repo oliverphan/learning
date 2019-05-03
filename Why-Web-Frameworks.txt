@@ -1,7 +1,13 @@
 You need web frameworks (essentially packages) to take out the overhead of the architecture:
 + Accessing databases, handling HTTP Methods (get/post)
 + Mapping  requested URLs to the HTTP codes meant to handle them (routing)
-+ Creating requested HTML dynamically & inject calculated values/information retrived from a database?
++ Creating requested HTML dynamically & inject calculated values/information retrived from a database (Views)
 + Overall: Hiding/providing overhead boilerplate & infrastructural code related to handling HTTP requests/responses (how much depends on framework)
 
 Workflow of Server side non-JS Framework: Receiving HTTP requests, dispatch code generating HTML, creates HTTP response with content
+
+
+Web frameworks make it easier to build basic backend logic
++ Mapping URLs to chunks of code
++ Dealing with databases
++ Generating HTML Files
