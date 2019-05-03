@@ -5,16 +5,12 @@
 
 ## CSS Blocks
 ---
-+ Selector {which *element, class, or id* to style} {
++ Selector {which *element, .class, or #id* to style} {
  Property: Value
 }
 HTML Elements have UNIQUE ids, but can share classes!
 
 + reference with `tag`, `.className`, or `#id`, or * as a wildcard
-+ tag names referenced naked
-+ classNames referenced with a period
-+ id referenced with hashTag
-+ wildCard referenced with asterisk
 
 ## Important Properties
 ---
