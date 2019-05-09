@@ -5,8 +5,8 @@ Fetches/Queries data
 
 ## CREATE TABLE
 
-## ALTER TABLE - For adding new columns
-
+## ALTER TABLE - For adding/updating new columns
+---
 ## INSERT INTO - Adds new row into table
 
 ## UPDATE - For updating/editing rows
