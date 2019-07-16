@@ -68,10 +68,12 @@ public class queueArray {
 
         return this.array[this.front];
     }
+	
     int rear() { 
         if (this.isEmpty()) {
             return Integer.MIN_VALUE; 
         }
+		
         return this.array[this.rear]; 
     } 
 }
