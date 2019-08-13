@@ -5,5 +5,5 @@ class Fish:
         self.color = color
         self.name = fish_name
     def move(self, speed):
-        print ("Swimming " + Speed + "!")
+        print ("Swimming " + speed + "!")
         

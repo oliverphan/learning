@@ -9,7 +9,7 @@ if __name__ == '__main__':
 		print('This is a game of rock-paper-scissors.')
 		print('You\'ll be playing against a randomized computer.')
 		print('Pick your move. Rock, Paper, or Scissors')
-		player_move = raw_input().lower()
+		player_move = input().lower()
 		
 		#Randomize the move of the computer
 		moves = ['rock', 'paper', 'scissors']
@@ -17,25 +17,25 @@ if __name__ == '__main__':
 		
 		print ("Computer move: " + random_move.upper())
 		if player_move == random_move:
-			print draw
+			print(draw)
 		elif player_move == 'rock':
 			if random_move == 'paper':
-				print loss
+				print(loss)
 			else:
-				print win
+				print(win)
 		elif player_move == 'paper':
 			if random_move == 'rock':
-				print win
+				print(win)
 			else:
-				print loss
+				print(loss)
 		elif player_move == 'scissors':
 			if random_move == 'paper':
-				print win
+				print(win)
 			else:
-				print loss
+				print(loss)
 		else:
-			print "Spelling error!"
+			print("Spelling error!")
 		print('Play again? Y/N')
-		replay = raw_input().upper()
+		replay = input().upper()
 		if replay == 'N':
 			play = False
