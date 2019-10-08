@@ -3,7 +3,7 @@ class Solution {
     // <Key, Value>
     private HashMap<Character, Character> mappings;
     
-    public Solution() { // Constructor for the class
+    public Solution() { // Constructor for the class, closing bracket key with opening value
         this.mappings = new HashMap<Character, Character>();
         this.mappings.put(')', '(');
         this.mappings.put('}', '{');
