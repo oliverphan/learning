@@ -17,6 +17,7 @@ import random
 import re
 import sys
 
+# Question: find absolute difference between sums of diagonals in matrix
 # Complete the diagonalDifference function below.
 def diagonalDifference(arr):
     side_length = len(arr)

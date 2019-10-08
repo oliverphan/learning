@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+# Question: figure out proportion fo elements in the array that are positive, negative or zero
 # Complete the plusMinus function below.
 def plusMinus(arr):
     size = len(arr)

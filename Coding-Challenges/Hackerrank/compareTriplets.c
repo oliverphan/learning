@@ -14,6 +14,7 @@ char* ltrim(char*);
 char* rtrim(char*);
 char** split_string(char*);
 
+// Question: Compare triplets in the same indice slts
 // Complete the compareTriplets function below.
 
 /*
